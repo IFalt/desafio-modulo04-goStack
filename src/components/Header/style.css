@@ -1,0 +1,40 @@
+header {
+  position: absolute;
+  width: 1024px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+
+  background: #4A90E2;
+}
+
+strong {
+  position: absolute;
+  width: 121px;
+  height: 24px;
+  left: 42px;
+  top: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+small {
+  position: absolute;
+  width: 69px;
+  height: 18px;
+  left: 880px;
+  top: 23px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
