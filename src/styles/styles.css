@@ -2,17 +2,142 @@
   padding: 0;
   margin: 0;
   border: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: Roboto;
 }
 
 body {
-  display: flex;
-  justify-items: center;
-}
-.container {
-  width: 1024px;
-  height: 1024px;
-  margin: 0 auto;
   background: #F2F2F2;
-  justify-content: center;
+}
+
+.container {
+  max-width: 1024;
+  margin: 0 auto;
+}
+
+header {
+  width: 100vw;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #4A90E2;
+}
+
+header strong {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin-left: 42px;
+  font-size: 1.5em;
+}
+
+header small {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  
+  margin-right: 42px
+}
+
+section {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-header img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.header-details strong {
+  height: 16px;
+  margin-left: 10px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #4A4A4A;
+}
+
+.header-details small {
+  margin-left: 10px;
+  font-size: 11px;
+  color: #9a9a9a;
+  line-height: 14px;
+}
+
+.header-details {
+  display: flex;
+  justify-content: column;
+}
+
+.post {
+  background: #fff;
+  width: 700px;
+  padding: 20px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+}
+
+.comments .post-text {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  /* identical to box height, or 157% */
+
+  color: #3E3E3E;
+}
+
+.post-comment {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-comment p {
+  margin-left: 10px;
+  padding: 10px;
+  background: #eeee;
+  border-radius: 20px;
+
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #3E3E3E;
+}
+
+.post-comment img {
+  flex-flow: 1;
+  min-width: 28px;
+  height: 28px;
+  left: 182px;
+  top: 214px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee; 
 }
