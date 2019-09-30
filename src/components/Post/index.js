@@ -17,7 +17,7 @@ function PostComments ({comments}) {
     <div className="comments">
           <div className="divider" />
           {comments.map(comment => (
-            <div key={comment.id}className="post-comment">
+            <div key={comment.id} className="post-comment">
               <img src={comment.author.avatar} alt={comment.name}/>
               <p><strong>{comment.author.name}</strong> {comment.content} </p>
             </div>
